@@ -1,0 +1,93 @@
+
+
+/*-----------начало navBar-----------------*/
+#myColor {
+    color: #5CB8E4;
+}
+/*-----------конец navBar------------------*/
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+    align-items: center;
+}
+
+.heading {
+    color: #141111;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+.textOne, .textTwo {
+    color: #141111;
+    font-family: 'Marmelad', sans-serif;
+    font-size: 30px;
+}
+
+/*-----------конец текст------------------*/
+
+/*-----------начало кнопка----------------*/
+.nextPage {
+    margin-top: 95px;
+    margin-bottom: 95px;
+    padding: 6px 12px;
+    border: 1px solid #5CB8E4;
+    border-radius: 80%;
+    background-color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5CB8E4;
+}
+
+.nextPage:hover {
+    color: #5CB8E4;
+    border: 1px solid #5CB8E4;
+}
+/*-----------конец кнопка------------------*/
+
+
+/*-----------------------------------конец главная страница---------------------------------*/
+
+
+
+@media all and (max-width: 768px) {
+    .nav-link {
+        font-size: 14px;
+    }
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+    .textOne, .textTwo {
+        font-size: 24px;
+    }
+}
+
+
+@media all and (max-width: 600px) {
+    .container {
+        margin-top: 100px;
+    }
+    .nextPage {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .heading {
+        font-size: 18px;
+    }
+    .textOne, .textTwo {
+        font-size: 14px;
+    }
+
+    .d-block {
+        font-size: 8px;
+    }
+}

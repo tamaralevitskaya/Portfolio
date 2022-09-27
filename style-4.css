@@ -1,0 +1,147 @@
+
+/*-----------начало navBar-----------------*/
+#myColor {
+    color: #5CB8E4;
+}
+/*-----------конец navBar------------------*/
+
+
+/*-----------начало кнопка----------------*/
+.previousPage5 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 6px 12px;
+    border: 1px solid #5CB8E4;
+    border-radius: 80%;
+    background-color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5CB8E4;
+}
+.previousPage5:hover {
+    color: #5CB8E4;
+    border: 1px solid #5CB8E4;
+}
+/*-----------конец кнопка------------------*/
+
+
+/*-----------начало содержимое------------------*/
+.heading5 {
+    margin-bottom: 30px;
+    color: #141111;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oneBlock5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text5 {
+    color: #141111;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#textPost {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+#textMessage {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#textMail {
+    align-self: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5CB8E4;
+}
+#textMail:hover {
+    color: #7fd0f6;
+}
+
+.text-input {
+    width: 100%;
+}
+
+#textFormMail, #textFormMessage {
+    color: #5CB8E4;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    color: #5CB8E4;
+    border: 1px solid #1bb2f9;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.btn:hover {
+    color: #5CB8E4;
+    border: 1px solid #5CB8E4;
+}
+/*-----------конец содержимое------------------*/
+
+
+/*--------------700---------------*/
+@media all and (max-width: 700px) {
+    .navbar-brand {
+        font-size: 17px;
+    }
+    .nav-link {
+        font-size: 13px;
+    }
+    .d-block {
+        font-size: 11px;
+    }
+}
+
+/*--------------420---------------*/
+@media all and (max-width: 420px) {
+    .heading5 {
+        font-size: 34px;
+    }
+    #textPost {
+        font-size: 20px;
+    }
+    #textMessage {
+        font-size: 20px;
+    }
+    #textMail {
+        font-size: 14px;
+    }
+    #textFormMail, #textFormMessage {
+        font-size: 10px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+    .previousPage5 {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        padding: 3px 9px;
+    }
+    .navbar-brand {
+        font-size: 15px;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+    .d-block {
+        font-size: 9px;
+    }
+}
